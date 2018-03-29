@@ -1,6 +1,7 @@
 # golang_omniosce_build
 Instructions to build Golang in OmniosCE
 
+```
 mkdir code
 cd code/
 pkg install git gcc44 system/header rsync developer/object-file
@@ -22,4 +23,5 @@ mv ~/code/go/ /usr/local/go1.10
 
 root@omniosce:~# /usr/local/go1.10/bin/go version
 go version go1.10.1 solaris/amd64
+```
 
